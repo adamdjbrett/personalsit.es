@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/hankchizljaw/personalsit.es#readme",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "capture-website": "^0.8.1",
     "cloudinary": "^1.21.0",
@@ -30,5 +30,10 @@
     "filenamify-url": "^2.1.1",
     "front-matter": "^3.1.0",
     "html-minifier": "^3.5.20"
-  }
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11.14.0"
+  },
+  "packageManager": "npm@11.14.0"
 }
